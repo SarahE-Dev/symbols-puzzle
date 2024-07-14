@@ -1,0 +1,114 @@
+body {
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  font-family: 'Courier New', monospace;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff;
+}
+
+.game-board {
+  background-color: #1a1a1a;
+  border: 2px solid #ff00ff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+}
+
+.code-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+
+.symbol {
+  font-size: 36px;
+  margin: 0 10px;
+  text-shadow: 0 0 5px currentColor;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+ 
+}
+
+button:hover {
+  background-color: #444;
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+}
+
+.symbol-options{
+  display: flex;
+  justify-content: center;
+}
+
+.symbol-options button {
+  font-size: 24px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+
+.feedback {
+  font-size: 24px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback span {
+  margin: 0 5px;
+}
+
+.attempts {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #00ffff;
+}
+
+.win-message {
+  color: #00ff00;
+  font-size: 24px;
+  margin-top: 20px;
+  text-shadow: 0 0 10px #00ff00;
+}
+
+.new-game {
+  margin-top: 20px;
+  background-color: #ff00ff;
+  color: #000;
+}
+
+.new-game:hover {
+  background-color: #ff33ff;
+}
+
+.symbol-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
